@@ -1,0 +1,256 @@
+(footprint "LED_5.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
+	(tags "LED diameter 5.0mm 2 pins")
+	(property "Reference" "REF**"
+		(at 1.27 -3.96 0)
+		(layer "F.SilkS")
+		(uuid "965742bf-56fd-4fae-b19a-87f576e0f1c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D5.0mm"
+		(at 1.27 3.96 0)
+		(layer "F.Fab")
+		(uuid "053fbfee-a17a-44d8-b39a-4ff12b3bb307")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa436dc0-89ea-498d-8b28-136952578a6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4864379-4f2e-473a-9d3e-f4efa9f20c58")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.29 -1.545)
+		(end -1.29 1.545)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d215b976-34fa-4713-9026-59d6869ac75c")
+	)
+	(fp_arc
+		(start -1.29 -1.54483)
+		(mid 2.072002 -2.880433)
+		(end 4.26 0.000462)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db62d75a-ee35-4cee-a4b4-4335e531c747")
+	)
+	(fp_arc
+		(start 4.26 -0.000462)
+		(mid 2.072002 2.880433)
+		(end -1.29 1.54483)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a1e7b8-49d0-41a3-a263-158b9c68295c")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "416e7a3f-f422-4be9-85ce-aa819de0c91f")
+	)
+	(fp_line
+		(start -1.95 -3.25)
+		(end -1.95 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77ead39e-c063-4ed9-a4a5-7728a613ed9b")
+	)
+	(fp_line
+		(start -1.95 3.25)
+		(end 4.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5be230c8-7a17-4c89-927f-4dbefaf28920")
+	)
+	(fp_line
+		(start 4.5 -3.25)
+		(end -1.95 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c7690ae-20b8-47c1-ae7c-5ace1078402c")
+	)
+	(fp_line
+		(start 4.5 3.25)
+		(end 4.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae80524b-5dde-4b36-850b-442e07893d39")
+	)
+	(fp_line
+		(start -1.23 -1.469694)
+		(end -1.23 1.469694)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cf4f5d1-7768-4b3c-a7ee-632faca4cca5")
+	)
+	(fp_arc
+		(start -1.23 -1.469694)
+		(mid 4.17 0.000016)
+		(end -1.230016 1.469666)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eca5e01d-d379-4619-ad50-55c4d4272366")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e6d13c2-194e-4d08-af10-375e60a5cb2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 0)
+		(layer "F.Fab")
+		(uuid "18ceff2d-301b-415e-8a48-c94d599b9ebd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df6ae610-87ff-4da6-9bd5-d7c2e7e1a753")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a916a3a-f9d5-40bc-8b82-45d51f11e188")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3D}/LED-5.0mm_Blue.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_3D}/LED-5.0mm_Clear.step"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_3D}/LED-5.0mm_Green.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_3D}/LED-5.0mm_Red.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_3D}/LED-5.0mm_Yellow.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
