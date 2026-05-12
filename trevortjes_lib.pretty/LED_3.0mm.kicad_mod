@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 1.27 -2.96 0)
 		(layer "F.SilkS")
-		(uuid "e661a50b-207d-4703-af09-aa57b870e7c6")
+		(uuid "1f079346-a7fd-4fab-ae39-61b6db3cf8e8")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "LED_D3.0mm"
+	(property "Value" "LED 3.0mm"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
-		(uuid "27e34732-f446-4dc7-ada7-e723aa184711")
+		(uuid "886f4368-cc00-428b-b2d7-405e1495a073")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5845d80b-fdec-4802-849e-56f0b69ae629")
+		(uuid "1db96455-20d4-4e1a-a3f2-1f154dfa34d9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "609518fb-ab45-45ca-b571-7c43f13caedc")
+		(uuid "1888b6cc-234f-4845-ab63-8e44e1e3ba71")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c6873e57-7ed6-42e7-9465-a89bdd2ed70d")
+		(uuid "d2dd2c37-19d1-4237-b9bf-75b7c4eb8fbd")
 	)
 	(fp_line
 		(start -0.29 1.08)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1adcef54-71fc-47ac-9de1-328236e11eed")
+		(uuid "a4050016-df90-4642-8fa0-767d5bbea444")
 	)
 	(fp_arc
 		(start -0.29 -1.235516)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "25fecd38-92c7-4b6a-9f58-ba4c6a5ac95c")
+		(uuid "8ed63235-8adf-4d1d-aca1-acefbddf532b")
 	)
 	(fp_arc
 		(start 0.229039 -1.08)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2dca9ba0-344f-4402-af16-7b20ae52ce2a")
+		(uuid "06cf0c16-fe30-4336-b66d-81e691a0b94c")
 	)
 	(fp_arc
 		(start 2.31113 1.079837)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9cf3393b-1fe0-484e-9f27-2461e5716393")
+		(uuid "3ac26d6b-8eac-478d-9595-9046f4edd617")
 	)
 	(fp_arc
 		(start 2.942335 1.078608)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "55778eb1-047d-43ed-bcae-fa9ee0839aed")
+		(uuid "89c45064-85cf-4f8c-902a-7cdaf9825943")
 	)
 	(fp_line
 		(start -1.15 -2.25)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0501a9aa-6a3f-4f9c-8a89-eefbd1c3e154")
+		(uuid "dc002429-9fbd-4f67-a18c-9abe5b1b839f")
 	)
 	(fp_line
 		(start -1.15 2.25)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6e6c2c12-a45a-44c0-a9e3-caacbc95ee89")
+		(uuid "13ed714b-ccba-452d-b853-a1974cd14c0f")
 	)
 	(fp_line
 		(start 3.7 -2.25)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "12b64ee0-8607-42f8-9842-66ef8aeca8d3")
+		(uuid "88584d64-eed2-456c-9359-e9c5167b1be6")
 	)
 	(fp_line
 		(start 3.7 2.25)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4eea6cf1-dce7-4b81-acac-16455b762fdd")
+		(uuid "cfb2d6e7-381d-4349-8011-460431d2a575")
 	)
 	(fp_line
 		(start -0.23 -1.16619)
@@ -163,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fd932ff8-d23e-4594-9a3a-14a3720f7d2d")
+		(uuid "39aa7e92-3732-4a23-8ea0-fb24c262b55d")
 	)
 	(fp_arc
 		(start -0.23 -1.16619)
@@ -174,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "19a9cf04-7305-4d6e-aa61-4bfffef74528")
+		(uuid "50f7a418-7af7-44d8-ae10-c10b8e146d2c")
 	)
 	(fp_circle
 		(center 1.27 0)
@@ -185,7 +185,18 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "232737af-9953-4d15-be60-edd493f83891")
+		(uuid "f66762c6-11d0-4297-b619-9b8feb9e1634")
+	)
+	(fp_text user "-"
+		(at -1.5 0 90)
+		(layer "F.SilkS")
+		(uuid "45730f40-b528-4b8a-8dfe-33aede8a512f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
@@ -193,7 +204,7 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1cc56b96-461a-401c-b619-f8c0b9fe4f4b")
+		(uuid "051b65bb-2f7c-4b1a-82ca-08b8c33c3812")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -201,7 +212,7 @@
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1f7101f5-792f-42b3-99a7-8b315d7e3d41")
+		(uuid "e076260d-5d85-46c8-ab38-c583e6741546")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_USER_3D}/LED-3.0mm_Clear.step"

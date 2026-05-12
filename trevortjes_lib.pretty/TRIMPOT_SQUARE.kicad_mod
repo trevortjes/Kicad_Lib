@@ -1,25 +1,179 @@
-(module TRIMPOT_SQUARE (layer F.Cu) (tedit 600B52FB)
-  (fp_text reference 3362P (at 0 2.8575) (layer F.Fab)
-    (effects (font (size 0.762 0.762) (thickness 0.1524)))
-  )
-  (fp_text value REF** (at -4.064 0 90) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1524)))
-  )
-  (fp_line (start -3.556 -3.556) (end 3.556 -3.556) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.556 3.556) (end -3.556 -3.556) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.556 3.556) (end -3.556 3.556) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.556 -3.556) (end 3.556 3.556) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.5 3.5) (end -3.5 -3.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -3.5 3.5) (end 3.5 3.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -3.5 -3.5) (end 3.5 -3.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 3.5 -3.5) (end 3.5 3.5) (layer F.SilkS) (width 0.12))
-  (fp_circle (center -2.794 2.794) (end -2.794 2.54) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole circle (at 0 -2.54) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at -2.54 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask))
-  (model :STD_3D:3362P.STEP
-    (offset (xyz -2.5 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TRIMPOT_SQUARE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "3362P"
+		(at 0 2.8575 0)
+		(layer "F.Fab")
+		(uuid "13e7e8c3-fa8c-4add-8e50-01ae53d09fe8")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "REF**"
+		(at -4.064 0 90)
+		(layer "F.SilkS")
+		(uuid "f98ed692-1538-45ee-88aa-8d6e3bc976cf")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc252bd2-3f98-4432-b539-361189858332")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2c1d41f-a9c6-4180-b1e4-1ff3790d051f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b47a1ec-3946-4be3-9304-995c953237b8")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d10a52ab-62d0-4e4f-8ed8-bf4a4be6d806")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6bbd319-d638-47e4-9073-7f6ba1be0710")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f97e2ff-0794-46d7-abd8-ec07d1b270fe")
+	)
+	(fp_circle
+		(center -2.794 2.794)
+		(end -2.794 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c2013ca2-7279-4818-bbdb-59255e3f3c11")
+	)
+	(fp_line
+		(start -3.556 -3.556)
+		(end 3.556 -3.556)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "889d614c-468a-4ecf-82c3-5b7a5e2d0282")
+	)
+	(fp_line
+		(start -3.556 3.556)
+		(end -3.556 -3.556)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f32f2cdc-a5cc-4617-93f1-830f1c953f6d")
+	)
+	(fp_line
+		(start 3.556 -3.556)
+		(end 3.556 3.556)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "222f44c6-d80b-42e0-a355-4cb1d7087d0c")
+	)
+	(fp_line
+		(start 3.556 3.556)
+		(end -3.556 3.556)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bd6a33a-01cf-48e1-bff3-112b84a7f469")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60fbe75d-fb19-498e-b35e-a089fa28dc23")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75c7e86a-990c-4ce2-bdb6-380bedb31845")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf5b0c1e-9cbf-48e8-9d0b-20d5e67c83e5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3D}/3362P.STEP"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
