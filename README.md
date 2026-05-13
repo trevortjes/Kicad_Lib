@@ -25,3 +25,5 @@ This means that the pinspacing is always a multiple of 2.54mm.
 It can also be seen in the footprint names like R_1x4.
 <p></P>
 This means this part occupies a single row of 4 x 2.54mm spacings wide.
+<p></P>
+Ofcourse, SMD parts, certain connectors and potentiometers do not abide to this logic as pinspacing is bound to part construction.
