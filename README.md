@@ -1,4 +1,4 @@
-WIP
+Download instructions:
 <p></p>
 1) Download trevotjes_lib.pretty and place it somewhere you can easily find it
 <p></p>
@@ -13,3 +13,10 @@ Add a new entry with Nickname "trevortjes_lib" and library path to the trevortje
 Done!
 <p></p><p></p>
 <img width="901" height="505" alt="image" src="https://github.com/user-attachments/assets/25cc847b-e7d0-4c91-84f8-19fbbd4ffba0" />
+<p></P><p></P><p></P><p></P>
+Description:
+The trevortjes KiCad library is an effort to get a collection of parts which are mostly used in audio related projects.
+Also the library tries to have all parts, if possible, breadboard and protoboard compliant.
+This means that the pinspacing is always a multiple of 2.54mm. 
+It can also be seen in the footprint names like R_1x4.
+This means this part occupies a single row of 4 x 2.54mm spacings wide.
